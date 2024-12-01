@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>js error handling</h2>
+    <p id="k"></p>
+    <script>
+        try{
+            addalert("wont work here")
+        }
+        catch(sss){
+            document.getElementById("k").innerHTML= sss.message;
+        }
+    </script>
+</body>
+</html>
